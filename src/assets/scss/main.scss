@@ -1,0 +1,45 @@
+@import "vendor/element-plus";
+
+
+*, body, .app-container {
+    font-family: "Nunito Sans";
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    color: #1B1B1B
+  }
+
+  body{
+    background-color: $contentbody;
+  }
+
+
+  .sidebar{
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: $primary;
+        border-radius: 10px;
+    }
+    
+  }
+
+  .sidebar:hover{
+    ::-webkit-scrollbar-thumb {
+      background: lighten($primary, 4%);
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: $secondary;
+  }
+  }
+
+  
+
+
+.dropdown-navbar{
+  border-radius: 14px !important;
+}

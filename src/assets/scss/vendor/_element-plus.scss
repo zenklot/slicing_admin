@@ -1,0 +1,106 @@
+$primary: #053D41;
+$secondary: #F58342;
+$font: #1B1B1B;
+$disable: #999999;
+$alert: #F94C4C;
+$contentbody: #F8F8F8;
+
+
+.el-main{
+  --el-main-padding: 0 !important;
+  padding: 0 !important;
+}
+
+.el-header {
+  --el-header-padding: unset !important;
+  --el-header-height: unset !important;
+  padding: unset !important;
+  box-sizing: border-box;
+  flex-shrink: unset;
+  height: unset !important;
+}
+
+.el-menu {
+  border-right: unset !important;
+  background-color: unset !important;
+}
+
+
+.el-aside{
+  overflow: unset !important;
+}
+
+.el-popper__arrow{
+    display: none;
+  }
+
+ .dropdown-cabang{
+    border-radius: 24px;
+  }
+  .el-icon svg{
+    width: 36px !important;
+    height: 36px !important;
+  }
+
+  .el-rate {
+    .el-rate__item, .el-rate__text, .el-rate .el-rate__icon{
+      width: 36px;
+    }
+  
+    .el-rate__icon{
+      height: 36px;
+    }
+  
+    .el-rate__text{
+      padding-left: 14px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      line-height: 0;
+    }  
+  }
+  
+ 
+  .search-input{
+    .el-input__wrapper{
+      background-color: $contentbody !important;
+      border: 1px solid $disable;
+    }
+  }
+
+  .pagination-class{
+
+    button, ul.el-pager li{
+      background-color: unset !important;
+      font-size: 24px;
+      width: 60px !important;
+      height: 60px !important;
+
+    }
+
+    button {
+      .el-icon{
+        svg{
+          width: 12px !important;
+          height: 12px !important;
+        }
+      }
+    }
+
+    ul.el-pager li.is-active{
+      background-color: $secondary !important;
+      border-radius: 50%;
+      color: white;
+    }
+
+    ul.el-pager{
+      li:hover{
+        color: $secondary !important;
+      }
+    }
+  }
+
+
+.el-dialog{
+  border-radius: 24px !important;
+}
